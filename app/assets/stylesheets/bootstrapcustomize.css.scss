@@ -1,8 +1,26 @@
-$font-family-serif: GMenlo, Monaco, Consolas, "Courier New", monospace;
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
+
+$font-family-sans-serif: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $text-color:	#34495e;
 $link-color:	white;
-$body-bg:	#e74c3c;
-$navbar-inverse-bg:		#34495e;
+$body-bg:	#ecf0f1;
+$jumbotron-bg: 	white;
+$navbar-default-color: 	white;
+$navbar-default-brand-color: 	#c0392b;
+$navbar-default-link-color: #c0392b;
+
+
+$navbar-height: 	45px;
 $navbar-inverse-link-color:		white;
 $navbar-inverse-link-hover-bg: 		#c0392b;
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
 @import 'bootstrap';
