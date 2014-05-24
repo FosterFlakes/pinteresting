@@ -32,7 +32,7 @@ Rails.application.configure do
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
 
-   config.action_mailer.default_url_options = { host: 'afomrtest.herokuapp.com' }
+   config.action_mailer.default_url_options = { host: 'afomrpint.herokuapp.com' }
    #Required for heroku
 
   # Raises error for missing translations
