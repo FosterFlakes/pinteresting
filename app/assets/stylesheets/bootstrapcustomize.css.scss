@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 
-$font-family-sans-serif: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif: 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $text-color:	#34495e;
-$link-color:	white;
+$link-color:	black;
 $body-bg:	#ecf0f1;
 $jumbotron-bg: 	white;
 $navbar-default-color: 	white;
@@ -14,14 +14,12 @@ $navbar-default-link-color: #c0392b;
 $navbar-height: 	45px;
 $navbar-inverse-link-color:		white;
 $navbar-inverse-link-hover-bg: 		#c0392b;
+$panel-default-heading-bg: 	#95a5a6;
 
 .center {
 	text-align: center;
 }
 
-.center2 {
-	text-align: center;
-}
 
 .navbar-brand{
 	font-weight: bold;
